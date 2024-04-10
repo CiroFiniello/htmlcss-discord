@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex{
+  display: flex;
+}
+.flex-centered{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+header section.uphead{
+  background-color: #255ee9;
+  padding:  1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;  
+}
+header section.jumbotron{
+padding: 5rem;
+background-color: blueviolet;
+font-size: 1.5rem;
+}
+main > section{
+  padding: 4rem;
+}
+div.column{
+  padding: 2rem;
+}
+div.column-small{
+  width: 30%;
+}
+div.column-big{
+  width: 50%;
+}
+ul{
+  list-style-type: none;
+}
+header nav ul li{
+  display: inline-block;
+  margin: 0 .5rem;
+}
+
+.bd-container{
+  max-width: 1200px;
+}
+.bg-blue{
+  background-color: blue;
+}
+.bg-purple{
+  background-color: purple;
+}
+.bg-white{
+  background-color: white;
+}
+.font-white{
+  color: white;
+}
+.chilin-flex{
+  display: flex;
+  justify-content: center;
+}
+.chillin-block{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+footer{
+  background-color:#23272a ;
+  color: white;
+}
+.footer-container{
+  padding: 2rem;
+}
+.footer-list{
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+display: inline-block;
+}
+.underfooter{
+  justify-content: space-between;
+  padding: 1rem;
+}
+.underfooter button{
+  padding: .6rem;
+}
