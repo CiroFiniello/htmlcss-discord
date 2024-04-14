@@ -17,10 +17,18 @@ header section.uphead{
   display: flex;
   justify-content: space-between;  
 }
+.accedi{
+  border-radius: 1rem;
+  padding: 0.7rem .5rem;
+  font-size: 1.2rem;
+}
 header section.jumbotron{
-padding: 5rem;
-background-color: blueviolet;
+  flex-direction: column;
+padding: 6rem;
+background-image: url(img/Jumbo.png);
 font-size: 1.5rem;
+background-size: cover;
+background-position: center;
 }
 main > section{
   padding: 4rem;
@@ -44,6 +52,9 @@ header nav ul li{
 .bd-container{
   max-width: 1200px;
   margin: 0 auto;
+}
+.bg-dark-grey{
+  background-color: #23272a;
 }
 .bg-blue{
   background-color: blue;
