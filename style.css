@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .flex{
   display: flex;
 }
@@ -11,24 +12,44 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+div.container{
+  width: 1200px;
+  margin: 0 auto;
+}
 header section.uphead{
   background-color: #255ee9;
   padding:  1.5rem 2rem;
   display: flex;
   justify-content: space-between;  
 }
+.chillin{
+  background-color:#f6f6f6 ;
+}
 .accedi{
   border-radius: 1rem;
   padding: 0.7rem .5rem;
   font-size: 1.2rem;
 }
+div.column > h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+div.chillin-block > p {
+  max-width: 800px;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
 header section.jumbotron{
-  flex-direction: column;
-padding: 6rem;
+padding: 6rem 7rem;
 background-image: url(img/Jumbo.png);
-font-size: 1.5rem;
+font-size: 2rem;
 background-size: cover;
 background-position: center;
+text-align: center;
+}
+.accedi2{
+  border: transparent;
 }
 main > section{
   padding: 4rem;
@@ -38,6 +59,7 @@ div.column{
 }
 div.column-small{
   width: 30%;
+  padding-left: 5rem;
 }
 div.column-big{
   width: 50%;
@@ -52,6 +74,42 @@ header nav ul li{
 .bd-container{
   max-width: 1200px;
   margin: 0 auto;
+}
+.chillin-block-txt{
+  max-width: 800px;
+}
+.chilin-flex{
+  display: flex;
+  justify-content: center;
+}
+.chillin-block{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 5rem;
+margin: auto;
+}
+footer{
+  background-color:#23272a ;
+  color: white;
+}
+.footer-container{
+  padding: 2rem ;
+}
+.footer-list{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+.icon{
+display: inline-block;
+}
+.underfooter{
+  justify-content: space-between;
+  padding: 1rem;
+}
+.underfooter button{
+  padding: .6rem;
 }
 .bg-dark-grey{
   background-color: #23272a;
@@ -68,33 +126,29 @@ header nav ul li{
 .font-white{
   color: white;
 }
-.chilin-flex{
-  display: flex;
-  justify-content: center;
+.art{
+background-color: #f6f6f6;
+
 }
-.chillin-block{
-display: flex;
-flex-direction: column;
-align-items: center;
+.non-dovrei{
+  position: relative;
 }
-footer{
-  background-color:#23272a ;
-  color: white;
+.ondina{
+  position: relative;
+  bottom: -16px;
+  margin: 0;
+  height: 100px;
+  background-image: url(img/wave.svg);
+  filter: opacity(0.04);
+  background-repeat: no-repeat;
 }
-.footer-container{
-  padding: 2rem;
+.upside-down{
+  top: -1px;
+  transform: rotatex(-0.5turn);
 }
-.footer-list{
-  display: flex;
-  justify-content: space-between;
+.underchill{
+  flex-direction: column;
 }
-.icon{
-display: inline-block;
-}
-.underfooter{
-  justify-content: space-between;
-  padding: 1rem;
-}
-.underfooter button{
-  padding: .6rem;
+.mac{
+  margin: 5rem;
 }
